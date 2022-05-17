@@ -9,9 +9,9 @@ server:
 
 spring:
   datasource:
-      url: jdbc:mariadb://localhost:3306/greendb
+      url: jdbc:mariadb://wedding-db.ciuh4iy8zmzd.ap-northeast-2.rds.amazonaws.com:3306/greendb
       driver-class-name: org.mariadb.jdbc.Driver
-      username: green
+      username: greendb
       password: password
   jpa:
     open-in-view: true
